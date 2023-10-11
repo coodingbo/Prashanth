@@ -43,6 +43,11 @@
     <version>5.1.1</version>
 </dependency>
 
+  	<dependency>
+  		<groupId>May_team</groupId>
+  		<artifactId>May_team</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
   
