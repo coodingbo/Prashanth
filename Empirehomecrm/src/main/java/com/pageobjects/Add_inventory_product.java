@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.base.Basetest;
 
 public class Add_inventory_product extends  Basetest {
-	private final String sheetname1 = "AddProductInventory";
+	private final String sheetname2 = "AddProductInventory";
 	Loginpage Login;
 	Add_inventory_product AddInventory;
 	private Object Dataprovider;
@@ -20,7 +20,7 @@ public class Add_inventory_product extends  Basetest {
 
 	@DataProvider
 	public Object[][] dataload() throws Throwable {
-		return ((Object) Dataprovider).data(sheetname1);
+		return ((Object) Dataprovider).data(sheetname2);
 	}
 
 	@BeforeMethod

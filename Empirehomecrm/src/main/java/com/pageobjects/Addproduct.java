@@ -57,6 +57,7 @@ public class Addproduct extends Basetest  {
 
 	public void Addproductfunctionality() {
 		PageFactory.initElements((WebDriver) driver, this);
+
 		
 		public void  verifyAddInventorypage(String ModelNumber, String Title, String ItemDescription, String Height,String Width, String Breadth, String ColorName, String ActualPrice, String textMRP, String Qty)throws Throwable {
 			Thread.sleep(2000);
