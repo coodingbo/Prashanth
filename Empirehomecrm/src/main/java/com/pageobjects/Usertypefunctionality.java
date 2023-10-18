@@ -37,7 +37,7 @@ public class Usertypefunctionality extends Basetest {
 	WebElement editUserButton;
 	
 	
-	public  void UserType() {
+	public  Usertypefunctionality () {
 		PageFactory.initElements(driver, this);
 	}
 	public void verifyUserType() throws Throwable {

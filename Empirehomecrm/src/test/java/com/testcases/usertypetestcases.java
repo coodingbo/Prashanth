@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.util.Assert;
 import com.base.Basetest;
 
-public class usertypetestcases<OriginalLogin> extends Basetest {
+public class usertypetestcases<OriginalLogin>  extends Basetest {
 	OriginalLogin ol;
 	UserType ut;
 	

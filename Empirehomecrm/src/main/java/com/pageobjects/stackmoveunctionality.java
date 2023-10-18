@@ -47,11 +47,11 @@ public class stackmoveunctionality extends Basetest {
 	@FindBy(xpath = "//input[@id='btnAdd']")
 	WebElement addbutton;
 
-	public void MoveStockFunctionality() {
+	public stackmoveunctionality() {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void verifymovingstock(WebElement Clickpad, WebElement Inventory, WebElement MoveStock, WebElement movedFromD, WebElement movedToD, WebElement reference, WebElement ModelNumber, WebElement Textbox, WebElement MovingQty, WebElement Add, WebElement Save) throws Throwable {
+	public stackmoveunctionality(WebElement Clickpad, WebElement Inventory, WebElement MoveStock, WebElement movedFromD, WebElement movedToD, WebElement reference, WebElement ModelNumber, WebElement Textbox, WebElement MovingQty, WebElement Add, WebElement Save) throws Throwable {
 
 		Thread.sleep(2000);
 		 Clickpad.click();

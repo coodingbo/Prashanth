@@ -44,10 +44,10 @@
 </dependency>
 
   	<dependency>
-  		<groupId>May_team</groupId>
-  		<artifactId>May_team</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.4.0</version>
+		</dependency>
   </dependencies>
   
   
