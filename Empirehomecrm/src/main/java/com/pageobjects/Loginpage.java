@@ -30,6 +30,12 @@ public class Loginpage extends Basetest {
 		   pass.sendKeys(prop.getProperty("password"));
 		   loginbutton.click();
 	   }
+
+
+	public void Loginverification() {
+		// TODO Auto-generated method stub
+		
+	}
 	   
 }
 	
