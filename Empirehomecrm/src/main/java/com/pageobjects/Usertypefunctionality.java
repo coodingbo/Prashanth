@@ -60,7 +60,7 @@ public class Usertypefunctionality extends Basetest {
 		
 		saveButton.click();
 		
-//		driver.navigate().to("http://empirehome.myprojectsonline.co.in/Master/UserTypes");
+	driver.navigate().to("http://empirehome.myprojectsonline.co.in/Master/UserTypes");
 		
 	
 		searchField.sendKeys(prop.getProperty("AddnewUser"));

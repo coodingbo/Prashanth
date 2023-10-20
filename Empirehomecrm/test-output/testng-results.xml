@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T11:20:44 IST" name="Default suite" finished-at="2023-10-05T11:20:44 IST" duration-ms="217">
+  <suite started-at="2023-10-20T10:47:23 IST" name="Default suite" finished-at="2023-10-20T10:47:23 IST" duration-ms="443">
     <groups>
     </groups>
-    <test started-at="2023-10-05T11:20:44 IST" name="Default test" finished-at="2023-10-05T11:20:44 IST" duration-ms="217">
-      <class name="com.testcases.Logintest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Logintest@2a798d51]" started-at="2023-10-05T11:20:44 IST" name="setup" finished-at="2023-10-05T11:20:44 IST" duration-ms="95" status="FAIL">
+    <test started-at="2023-10-20T10:47:23 IST" name="Default test" finished-at="2023-10-20T10:47:23 IST" duration-ms="443">
+      <class name="com.testcases.EmployeeRegisterfunctionality">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.EmployeeRegisterfunctionality@223191a6]" started-at="2023-10-20T10:47:23 IST" name="setup" finished-at="2023-10-20T10:47:23 IST" duration-ms="301" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
@@ -22,7 +22,7 @@ at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.
 at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
 at com.base.Basetest.initialization(Basetest.java:56)
-at com.testcases.Logintest.setup(Logintest.java:23)
+at com.testcases.EmployeeRegisterfunctionality.setup(EmployeeRegisterfunctionality.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,7 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginvalidation()[pri:0, instance:com.testcases.Logintest@2a798d51]" started-at="2023-10-05T11:20:44 IST" name="loginvalidation" finished-at="2023-10-05T11:20:44 IST" duration-ms="0" status="SKIP">
+        <test-method signature="EmployeeRegisterfunctionalityvalidation()[pri:0, instance:com.testcases.EmployeeRegisterfunctionality@223191a6]" started-at="2023-10-20T10:47:23 IST" name="EmployeeRegisterfunctionalityvalidation" finished-at="2023-10-20T10:47:23 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
@@ -76,7 +76,7 @@ at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.
 at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
 at com.base.Basetest.initialization(Basetest.java:56)
-at com.testcases.Logintest.setup(Logintest.java:23)
+at com.testcases.EmployeeRegisterfunctionality.setup(EmployeeRegisterfunctionality.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,12 +114,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginvalidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.Logintest@2a798d51]" started-at="2023-10-05T11:20:44 IST" name="teardown" finished-at="2023-10-05T11:20:44 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.testcases.Logintest -->
+        </test-method> <!-- EmployeeRegisterfunctionalityvalidation -->
+      </class> <!-- com.testcases.EmployeeRegisterfunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
