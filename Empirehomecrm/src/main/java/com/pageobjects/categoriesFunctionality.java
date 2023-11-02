@@ -84,12 +84,8 @@ public class categoriesFunctionality  extends Basetest {
 		Thread.sleep(2000);
 		savebutton.click();
 		
-		WebElement Edit = driver.findElement(By.xpath("//div[@id='mydatatable_info']"));
-
-	
-		
-		
-	}
+		WebElement Edit = driver.findElement(By.xpath("//div[@id='mydatatable_info']"));	
+	      }
 	
 	public void verifydeletecategory() throws Throwable {
 		

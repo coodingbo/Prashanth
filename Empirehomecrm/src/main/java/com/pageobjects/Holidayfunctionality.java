@@ -34,7 +34,7 @@ public class Holidayfunctionality extends Basetest{
 		PageFactory.initElements(driver, this);
 		
 	}
-	public void Holidaysverify(String TextHolidayDate, String TextHolidayName ,String TextHolidayDesc, String REHolidayDate,String REHolidayName,String REHolidayDesc) throws Throwable{
+	public void Holidaysverify(CharSequence TextHolidayDate, CharSequence TextHolidayName, CharSequence TextHolidayDesc, CharSequence REHolidayDate, CharSequence REHolidayName, CharSequence REHolidayDesc) throws Throwable{
 		Thread.sleep(2000);
 		clickkeypad.click();
 		Thread.sleep(2000);

@@ -1,6 +1,8 @@
 package com.testcases;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.ListDocument.List;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -35,7 +37,7 @@ public class categorytest extends Basetest {
 		ctf.common();
 		ctf.verifyaddnewcategory();
 		
-		List<WebElement> records = driver.findElements(By.tagName("tr"));
+		java.util.List<WebElement> records = driver.findElements(By.tagName("tr"));
 		int recordcount = records.size();
 	    Assert.assertEquals(recordcount, 8);
 		
@@ -55,7 +57,7 @@ public class categorytest extends Basetest {
 		
 		ctf.verifydeletecategory();
 		
-		List<WebElement> records = driver.findElements(By.tagName("tr"));
+		java.util.List<WebElement> records = driver.findElements(By.tagName("tr"));
 		int recordcount = records.size();
 	    Assert.assertEquals(recordcount, 7);
 	}

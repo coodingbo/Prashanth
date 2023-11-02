@@ -33,7 +33,7 @@ public class customertestcases<Login_page02> extends Basetest {
 
 	public void Customervalidation() throws Throwable {
 		Login.verifylogin();
-		Customizer. customervalidation();
+		Customizer.customervalidation();
 
 		String urltest = driver.getCurrentUrl();
 		AssertJUnit.assertEquals(urltest, "http://empirehome.myprojectsonline.co.in/User/CustomerList");

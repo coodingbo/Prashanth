@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.EmployeeRegisterfunctionality">
+      <class name="com.testcases.subcategorytest">
         <methods>
-          <include name="EmployeeRegisterfunctionalityvalidation"/>
-          <include name="setup"/>
+          <include name="deletesubcategoryvalidation"/>
+          <include name="addsubcategoryvalidation"/>
+          <include name="editsubcategoryvalidation"/>
+          <include name="set"/>
         </methods>
-      </class> <!-- com.testcases.EmployeeRegisterfunctionality -->
+      </class> <!-- com.testcases.subcategorytest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

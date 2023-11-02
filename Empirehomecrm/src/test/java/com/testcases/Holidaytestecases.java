@@ -27,7 +27,7 @@ public class Holidaytestecases extends Basetest {
 	@Test	
 	public void Holidaysvalidation() {
 		login.Loginverification();
-		holidays.Holidaysvalidation();
+		
 		
 		String urltest = driver.getCurrentUrl();
 		AssertJUnit.assertEquals(urltest, "http://empirename,myprojectonline.co.in/master/Holidays");

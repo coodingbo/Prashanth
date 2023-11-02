@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-20T10:47:23 IST" name="Default suite" finished-at="2023-10-20T10:47:23 IST" duration-ms="443">
+  <suite started-at="2023-11-01T18:18:20 IST" name="Default suite" finished-at="2023-11-01T18:18:20 IST" duration-ms="276">
     <groups>
     </groups>
-    <test started-at="2023-10-20T10:47:23 IST" name="Default test" finished-at="2023-10-20T10:47:23 IST" duration-ms="443">
-      <class name="com.testcases.EmployeeRegisterfunctionality">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.EmployeeRegisterfunctionality@223191a6]" started-at="2023-10-20T10:47:23 IST" name="setup" finished-at="2023-10-20T10:47:23 IST" duration-ms="301" status="FAIL">
+    <test started-at="2023-11-01T18:18:20 IST" name="Default test" finished-at="2023-11-01T18:18:20 IST" duration-ms="276">
+      <class name="com.testcases.subcategorytest">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.testcases.subcategorytest@31304f14]" started-at="2023-11-01T18:18:20 IST" name="set" finished-at="2023-11-01T18:18:20 IST" duration-ms="114" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
@@ -22,7 +22,7 @@ at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.
 at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
 at com.base.Basetest.initialization(Basetest.java:56)
-at com.testcases.EmployeeRegisterfunctionality.setup(EmployeeRegisterfunctionality.java:22)
+at com.testcases.subcategorytest.set(subcategorytest.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -31,17 +31,9 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvoca
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -60,8 +52,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="EmployeeRegisterfunctionalityvalidation()[pri:0, instance:com.testcases.EmployeeRegisterfunctionality@223191a6]" started-at="2023-10-20T10:47:23 IST" name="EmployeeRegisterfunctionalityvalidation" finished-at="2023-10-20T10:47:23 IST" duration-ms="1" status="SKIP">
+        </test-method> <!-- set -->
+        <test-method signature="addsubcategoryvalidation()[pri:1, instance:com.testcases.subcategorytest@31304f14]" started-at="2023-11-01T18:18:20 IST" name="addsubcategoryvalidation" finished-at="2023-11-01T18:18:20 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
@@ -76,7 +68,7 @@ at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.
 at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
 at com.base.Basetest.initialization(Basetest.java:56)
-at com.testcases.EmployeeRegisterfunctionality.setup(EmployeeRegisterfunctionality.java:22)
+at com.testcases.subcategorytest.set(subcategorytest.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,17 +77,9 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvoca
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -114,8 +98,100 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EmployeeRegisterfunctionalityvalidation -->
-      </class> <!-- com.testcases.EmployeeRegisterfunctionality -->
+        </test-method> <!-- addsubcategoryvalidation -->
+        <test-method signature="editsubcategoryvalidation()[pri:2, instance:com.testcases.subcategorytest@31304f14]" started-at="2023-11-01T18:18:20 IST" name="editsubcategoryvalidation" finished-at="2023-11-01T18:18:20 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at com.base.Basetest.initialization(Basetest.java:56)
+at com.testcases.subcategorytest.set(subcategorytest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editsubcategoryvalidation -->
+        <test-method signature="deletesubcategoryvalidation()[pri:3, instance:com.testcases.subcategorytest@31304f14]" started-at="2023-11-01T18:18:20 IST" name="deletesubcategoryvalidation" finished-at="2023-11-01T18:18:20 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at com.base.Basetest.initialization(Basetest.java:56)
+at com.testcases.subcategorytest.set(subcategorytest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletesubcategoryvalidation -->
+      </class> <!-- com.testcases.subcategorytest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

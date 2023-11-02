@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+		<listeners>
+		<listener class-name="com.Reports.ExtentReporterNG"></listener>
+	</listeners>
+	
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testcases.Holidaytestecases"/>
+      <class name="com.testcases.usertypetestcases"/>
+      <class name="com.testcases.EmployeeRegisterfunctionality"/>
+      <class name="com.testcases.Logintest"/>
+      <class name="com.testcases.stockmove"/>
+      <class name="com.testcases.categorytest"/>
+      <class name="com.testcases.LogoutTest"/>
+      <class name="com.testcases.TestCases"/>
+      <class name="com.testcases.customertestcases"/>
+      <class name="com.pageobjects.Add_inventory_product"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

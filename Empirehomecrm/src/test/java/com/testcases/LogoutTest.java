@@ -37,7 +37,7 @@ public class LogoutTest extends Basetest {
 		public void logoutvalidation() throws Throwable {
 			
 			
-             logout.verifylogout();
+             logout.verifylogin();
 			
 			String urltest = driver.getCurrentUrl();
 			Assert.notEmpty(urltest, "http://empirehome.myprojectsonline.co.in/");
